@@ -1,0 +1,17 @@
+{
+  "name": "piglatin",
+  "version": "1.0.0",
+  "description": "Pig latin translator app",
+  "main": "public/js/index.js",
+  "scripts": {
+    "build": "node_modules/webpack/bin/webpack.js src/index.js public/build.min.js -p",
+    "test": "node_modules/mocha/bin/mocha --check-leaks"
+  },
+  "author": "Lex Mourek <lex@mourek.name>",
+  "license": "ISC",
+  "devDependencies": {
+    "chai": "^3.5.0",
+    "mocha": "^2.4.5",
+    "webpack": "^1.12.13"
+  }
+}
