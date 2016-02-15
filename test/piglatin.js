@@ -10,6 +10,7 @@ describe('Pig-latin lib.', () => {
 
     it('Words that start with a vowel have the letters “way” added to the end.', () => {
       assert.equal(piglatin('apple'), 'appleway');
+      assert.equal(piglatin('one One'), 'oneway Oneway');
     });
 
     it('Words that end in “way” are not modified.', () => {
